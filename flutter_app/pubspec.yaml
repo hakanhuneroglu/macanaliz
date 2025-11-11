@@ -1,15 +1,23 @@
 name: macanaliz
-publish_to: 'none'
+description: Futbol mac analizi - Excel yükle, tahminleri göster
+version: 1.0.0+1
+
 environment:
-  sdk: ">=3.4.0 <4.0.0"
+  sdk: ">=3.3.0 <4.0.0"
+
 dependencies:
-  flutter: { sdk: flutter }
-  file_picker: ^8.1.2
-  dio: ^5.7.0
+  flutter:
+    sdk: flutter
+  file_picker: ^6.1.1
+  excel: ^2.0.1
   collection: ^1.18.0
 
 dev_dependencies:
-  flutter_test: { sdk: flutter }
+  flutter_test:
+    sdk: flutter
   flutter_lints: ^4.0.0
+
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
