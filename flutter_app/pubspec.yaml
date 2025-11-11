@@ -1,7 +1,23 @@
+name: macanaliz
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
-  excel: ^2.0.1
-  file_picker: ^5.2.5
-  path_provider: ^2.1.1
 
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
