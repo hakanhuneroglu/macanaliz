@@ -1,23 +1,17 @@
 import 'package:flutter/material.dart';
-import 'pages/excel_picker.dart';
+import 'screens/home_screen.dart';
 
 void main() {
-  runApp(const MacAnalizApp());
+  runApp(MacAnalizApp());
 }
 
 class MacAnalizApp extends StatelessWidget {
-  const MacAnalizApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'macanaliz',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
-        useMaterial3: true,
-      ),
-      home: const ExcelPickerPage(),
+      title: 'Maç Analiz',
+      home: HomeScreen(),
     );
   }
 }
